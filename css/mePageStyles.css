@@ -1,15 +1,29 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans|Nova+Slim');
 
+/* Future color pin color:#EAF2E3; */
 
 header {
 
-    background-color:#7C7F84;
-    font-family:'Quicksand', sans-serif;
-    font-weight:bold;
-    font-size: medium;
-    text-align: center;
-    padding: 2%;
-    color: #F4F4F4;
-    
+    font-family: 'Nova Slim', cursive;
+    background:#565857;
+    color:#EAF2E3;
 
 }
+
+body {
+
+    font-family: 'Merriweather Sans', sans-serif;
+    background:#5DD9C1;
+    color:#565857;
+    
+}
+
+.headings {
+
+    font-family:'Merriweather', serif;
+    color:#565857;
+}
+
+
+
+
