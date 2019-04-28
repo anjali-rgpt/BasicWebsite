@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans|Nova+Slim');
 
-/* Future color pin color:#EAF2E3; */
+/* Future color pin color:#EAF2E3; 565857 for previous background colour*/
 
 header {
 
     font-family: 'Nova Slim', cursive;
     font-size:12pt;
-    background:#565857;
-    color:#EAF2E3;
+    text-align: center;
+    background:#44B4AC;
+    color:#111111;
     padding:14pt;
     letter-spacing:1pt;
 
