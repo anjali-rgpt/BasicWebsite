@@ -2,14 +2,14 @@
 
 /* Future color pin color:#EAF2E3; 565857 for previous background colour*/
 
-header {
+header  {
 
     font-family: 'Nova Slim', cursive;
     font-size:12pt;
     text-align: center;
-    background:#44B4AC;
-    color:#111111;
-    padding:14pt;
+    background:#88BB92;
+    color:#565857;
+    padding:10pt;
     letter-spacing:1pt;
 
 }
@@ -18,18 +18,19 @@ body {
 
     font-family: 'Merriweather Sans', sans-serif;
     font-size:10pt;
-    background:#5DD9C1;
+    background:#7CF4C4;
     color:#565857;
     letter-spacing: 0.75pt;
     line-height:2;
-    margin:16pt;
+    
     
 }
 
-main{
+main,nav,footer,img{
     
     width:65%;
     text-align: justify;
+    margin:16pt;
 }
 
 .headings {
