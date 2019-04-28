@@ -5,23 +5,33 @@
 header {
 
     font-family: 'Nova Slim', cursive;
+    font-size:12pt;
     background:#565857;
     color:#EAF2E3;
+    padding:16pt;
+    letter-spacing:1pt;
 
 }
 
 body {
 
     font-family: 'Merriweather Sans', sans-serif;
+    font-size:10pt;
     background:#5DD9C1;
     color:#565857;
+    letter-spacing: 0.75pt;
+    line-height: 2;
+    margin:16pt;
     
 }
 
 .headings {
 
     font-family:'Merriweather', serif;
+    font-size:14pt;
+    font-weight: bold;
     color:#565857;
+    letter-spacing: 1pt;
 }
 
 
