@@ -1,47 +1,145 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans|Nova+Slim');
+@import url('https://fonts.googleapis.com/css?family=Kreon|Open+Sans');
 
 /* Future color pin color:#EAF2E3; 565857 for previous background colour*/
 
-header  {
+:root{
+    scroll-behavior: smooth;
+}
 
-    font-family: 'Nova Slim', cursive;
-    font-size:12pt;
+::-webkit-scrollbar{
+    display: none;
+}
+
+.headings{
+    font-family: 'Kreon',serif;
+    color:#9694f0;
+    padding-top:2vh;
+    padding-bottom: 1vh;
+}
+
+h2{
+    font-size:1.6rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+header{
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom:0.5em dashed ivory;
+}
+
+header>h1{
+    color:ivory;
+    font-size: 3.3em;
+}
+
+
+body{
+    
+    display:flexbox;
+    justify-content: center;
+    width:100vw;
+    overflow-x:hidden;
+    font-family: 'Open Sans',sans-serif;
+    color:ivory;
+    background-color: #131235;
+    padding-right:2vw;
+    padding-top:1vh;
+    padding-bottom:5vh;
+    line-height: 1.5;
+letter-spacing: 0.01em;
+border-bottom:0.5em dashed ivory;
+
+    
+}
+
+nav{
+    flex-direction: column;
+    display: flexbox;
+    justify-content: center;
+    width: 25vw;
+    float:right;
+}
+
+nav > #sidebar {
+    display: flexbox;
+    justify-content: center;
+    width: 25vw;
+    float:right;
+    padding-left:5vh;
+    margin:5vh;
+    background-color: ivory;
+    color:#131235;
+    border-color: #131235;
+    border-width:2em;
+    border-style: double;
+    border-radius:25%;
+    
+}
+
+nav > #contact {
+    display: flexbox;
+    justify-content: space-evenly;
     text-align: center;
-    background:#88BB92;
-    color:#565857;
-    padding:10pt;
-    letter-spacing:1pt;
-
-}
-
-body {
-
-    font-family: 'Merriweather Sans', sans-serif;
-    font-size:10pt;
-    background:#7CF4C4;
-    color:#565857;
-    letter-spacing: 0.75pt;
-    line-height:2;
-    
+    width: 25vw;
+    float:right;
+    padding-left:5vh;
+    padding-right:3vh;
+    margin:5vh;
+    background-color: ivory;
+    border-color: #131235;
+    border-width:2em;
+    border-style: double;
+    border-radius:25%;
     
 }
 
-main,nav,footer,img{
+ nav p{
+    color:#131235;
+}
+nav li{
     
-    width:65%;
+    list-style-type: circle;
+}
+
+main {
+    width: 55vw;
     text-align: justify;
-    margin:16pt;
+    padding-left: 10vh;
 }
 
-.headings {
+p {
+    padding-bottom: 2vh;
+    font-size: 1.1rem;
+}
 
-    font-family:'Merriweather', serif;
-    font-size:14pt;
-    font-weight: bold;
-    color:#565857;
-    letter-spacing: 1pt;
+img{
+
+    float:right;
+    border-radius: 50%;
+
+}
+
+a {
+    color:#53a5e9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #53a5e9;
+    text-decoration: underline;
 }
 
 
 
-
+li{
+    padding:5px;
+    font-size: 1.1rem;
+}
